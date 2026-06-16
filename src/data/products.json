@@ -1,0 +1,651 @@
+[
+	{
+		"id": 1,
+		"slug": "cazadora-biker-negra",
+		"name": "Cazadora Biker Negra",
+		"price": 79.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Marrón", "Blanco", "Gris", "Beige"],
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+		"description": "Cazadora estilo biker en cuero sintético. Cierre frontal con cremallera y bolsillos laterales.",
+		"stock": true
+	},
+
+	{
+		"id": 2,
+		"slug": "vestido-midi-satinado",
+		"name": "Vestido Midi Satinado",
+		"price": 54.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Rojo", "Verde", "Azul", "Beige"],
+		"image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+		"description": "Vestido elegante de corte midi con acabado satinado. Perfecto para ocasiones especiales.",
+		"stock": true
+	},
+
+	{
+		"id": 3,
+		"slug": "camisa-oxford-blanca",
+		"name": "Camisa Oxford Blanca",
+		"price": 35.99,
+		"category": "camisas",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Blanco", "Azul", "Rosa", "Gris", "Beige"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camisa clásica de tejido oxford con cuello button-down. Versátil y atemporal.",
+		"stock": true
+	},
+
+	{
+		"id": 4,
+		"slug": "camiseta-basica-algodon",
+		"name": "Camiseta Básica de Algodón",
+		"price": 19.99,
+		"category": "camisetas y tops",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Blanco", "Negro", "Gris", "Rosa", "Azul"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camiseta esencial de algodón orgánico. Corte recto y cuello redondo.",
+		"stock": true
+	},
+
+	{
+		"id": 5,
+		"slug": "jersey-cuello-alto-punto",
+		"name": "Jersey Cuello Alto de Punto",
+		"price": 45.99,
+		"category": "punto",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Beige", "Gris", "Negro", "Camel", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+		"description": "Jersey de punto suave con cuello alto. Perfecto para los días más fríos.",
+		"stock": true
+	},
+
+	{
+		"id": 6,
+		"slug": "pantalon-palazzo-lino",
+		"name": "Pantalón Palazzo de Lino",
+		"price": 42.99,
+		"category": "pantalones",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Beige", "Blanco", "Negro", "Gris", "Verde"],
+		"image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf",
+		"description": "Pantalón de corte amplio en tejido de lino natural. Comodidad y estilo para el día a día.",
+		"stock": true
+	},
+
+	{
+		"id": 7,
+		"slug": "falda-midi-plisada",
+		"name": "Falda Midi Plisada",
+		"price": 39.99,
+		"category": "faldas y shorts",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Burdeos", "Verde", "Azul", "Beige"],
+		"image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa",
+		"description": "Falda midi con pliegues y cintura elástica. Perfecta para looks formales o casuales.",
+		"stock": true
+	},
+
+	{
+		"id": 8,
+		"slug": "bolso-tote-canvas",
+		"name": "Bolso Tote de Canvas",
+		"price": 29.99,
+		"category": "zapatos y accesorios",
+		"sizes": ["única"],
+		"colors": ["Beige", "Negro", "Blanco", "Verde", "Azul"],
+		"image": "https://images.unsplash.com/photo-1544816565-aa8c1166648f",
+		"description": "Bolso tote espacioso en canvas resistente. Ideal para el día a día.",
+		"stock": true
+	},
+
+	{
+		"id": 9,
+		"slug": "cazadora-vaquera-clasica",
+		"name": "Cazadora Vaquera Clásica",
+		"price": 65.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Blanco", "Gris", "Camel"],
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+		"description": "Cazadora denim con lavado medio y botones metálicos. Un básico imprescindible.",
+		"stock": false
+	},
+
+	{
+		"id": 10,
+		"slug": "vestido-floral-primavera",
+		"name": "Vestido Floral de Primavera",
+		"price": 49.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Rosa", "Azul", "Amarillo", "Verde", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1",
+		"description": "Vestido midi con estampado floral y mangas abullonadas. Romántico y fresco.",
+		"stock": true
+	},
+
+	{
+		"id": 11,
+		"slug": "camisa-lino-manga-larga",
+		"name": "Camisa de Lino Manga Larga",
+		"price": 38.99,
+		"category": "camisas",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Blanco", "Beige", "Azul", "Verde", "Rosa"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camisa clásica en lino natural con manga larga. Esencial de armario.",
+		"stock": true
+	},
+
+	{
+		"id": 12,
+		"slug": "top-tirantes-canale",
+		"name": "Top de Tirantes Canalé",
+		"price": 22.99,
+		"category": "camisetas y tops",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Blanco", "Beige", "Rosa", "Gris"],
+		"image": "https://images.unsplash.com/photo-1562572159-4efc207f5aff",
+		"description": "Top ajustado de tirantes finos en tejido canalé elástico. Perfecto para combinar.",
+		"stock": true
+	},
+
+	{
+		"id": 13,
+		"slug": "cardigan-punto-fino",
+		"name": "Cárdigan de Punto Fino",
+		"price": 48.99,
+		"category": "punto",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Beige", "Negro", "Gris", "Blanco", "Rosa"],
+		"image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+		"description": "Cárdigan ligero con botones frontales. Perfecto para el entretiempo.",
+		"stock": true
+	},
+
+	{
+		"id": 14,
+		"slug": "pantalon-vaquero-mom-fit",
+		"name": "Pantalón Vaquero Mom Fit",
+		"price": 55.99,
+		"category": "pantalones",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Gris", "Blanco", "Camel"],
+		"image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+		"description": "Vaquero de tiro alto con corte mom fit. Diseño atemporal y versátil.",
+		"stock": false
+	},
+
+	{
+		"id": 15,
+		"slug": "falda-vaquera-mini",
+		"name": "Falda Vaquera Mini",
+		"price": 34.99,
+		"category": "faldas y shorts",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Gris", "Blanco", "Beige"],
+		"image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa",
+		"description": "Falda mini de denim con cierre frontal de botones. Estilo casual y juvenil.",
+		"stock": true
+	},
+
+	{
+		"id": 16,
+		"slug": "zapatillas-blancas-basicas",
+		"name": "Zapatillas Blancas Básicas",
+		"price": 59.99,
+		"category": "zapatos y accesorios",
+		"sizes": ["36", "37", "38", "39", "40", "41"],
+		"colors": ["Blanco", "Negro", "Gris", "Beige", "Rosa"],
+		"image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+		"description": "Zapatillas minimalistas en piel sintética. El básico definitivo del armario.",
+		"stock": true
+	},
+
+	{
+		"id": 17,
+		"slug": "cazadora-acolchada-ligera",
+		"name": "Cazadora Acolchada Ligera",
+		"price": 89.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Verde", "Azul", "Beige", "Rojo"],
+		"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
+		"description": "Cazadora acolchada con capucha desmontable. Ideal para el entretiempo.",
+		"stock": true
+	},
+
+	{
+		"id": 18,
+		"slug": "vestido-negro-coctel",
+		"name": "Vestido Negro de Cóctel",
+		"price": 69.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Rojo", "Azul", "Verde", "Burdeos"],
+		"image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae",
+		"description": "Vestido corto con escote en V y mangas cortas. Ideal para eventos nocturnos.",
+		"stock": true
+	},
+
+	{
+		"id": 19,
+		"slug": "camisa-rayas-marineras",
+		"name": "Camisa de Rayas Marineras",
+		"price": 32.99,
+		"category": "camisas",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Rojo", "Verde", "Beige"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camisa con estampado de rayas marineras. Un clásico náutico renovado.",
+		"stock": false
+	},
+
+	{
+		"id": 20,
+		"slug": "crop-top-manga-larga",
+		"name": "Crop Top Manga Larga",
+		"price": 25.99,
+		"category": "camisetas y tops",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Blanco", "Gris", "Rosa", "Beige"],
+		"image": "https://images.unsplash.com/photo-1562572159-4efc207f5aff",
+		"description": "Crop top de manga larga en tejido suave y elástico. Tendencia y comodidad.",
+		"stock": true
+	},
+
+	{
+		"id": 21,
+		"slug": "jersey-oversize-punto-grueso",
+		"name": "Jersey Oversize de Punto Grueso",
+		"price": 52.99,
+		"category": "punto",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Camel", "Gris", "Negro", "Beige", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+		"description": "Jersey oversize de punto grueso. Perfecto para los días más fríos.",
+		"stock": true
+	},
+
+	{
+		"id": 22,
+		"slug": "pantalon-pinzas-elegante",
+		"name": "Pantalón de Pinzas Elegante",
+		"price": 58.99,
+		"category": "pantalones",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Gris", "Beige", "Azul", "Camel"],
+		"image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf",
+		"description": "Pantalón de corte recto con pinzas y cintura alta. Diseño sofisticado.",
+		"stock": true
+	},
+
+	{
+		"id": 23,
+		"slug": "short-tejano-deshilachado",
+		"name": "Short Tejano Deshilachado",
+		"price": 36.99,
+		"category": "faldas y shorts",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Blanco", "Gris", "Beige"],
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f43",
+		"description": "Short vaquero con bajo deshilachado y tiro alto. Perfecto para el verano.",
+		"stock": true
+	},
+
+	{
+		"id": 24,
+		"slug": "cinturon-piel-clasico",
+		"name": "Cinturón de Piel Clásico",
+		"price": 24.99,
+		"category": "zapatos y accesorios",
+		"sizes": ["única"],
+		"colors": ["Negro", "Marrón", "Beige", "Camel", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+		"description": "Cinturón de piel genuina con hebilla dorada. Complemento imprescindible.",
+		"stock": true
+	},
+
+	{
+		"id": 25,
+		"slug": "cazadora-cuero-marron",
+		"name": "Cazadora de Cuero Marrón",
+		"price": 85.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Marrón", "Negro", "Camel", "Beige", "Gris"],
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+		"description": "Cazadora de cuero genuino en tono marrón. Estilo atemporal y sofisticado.",
+		"stock": false
+	},
+
+	{
+		"id": 26,
+		"slug": "vestido-camisero-rayas",
+		"name": "Vestido Camisero a Rayas",
+		"price": 44.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Rojo", "Verde", "Beige"],
+		"image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+		"description": "Vestido estilo camisa con estampado de rayas verticales. Cinturón incluido.",
+		"stock": true
+	},
+
+	{
+		"id": 27,
+		"slug": "camisa-oversize-cuadros",
+		"name": "Camisa Oversize de Cuadros",
+		"price": 42.99,
+		"category": "camisas",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Rojo", "Azul", "Verde", "Negro", "Beige"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camisa oversize con estampado de cuadros. Perfecta para looks casuales.",
+		"stock": true
+	},
+
+	{
+		"id": 28,
+		"slug": "body-manga-corta",
+		"name": "Body de Manga Corta",
+		"price": 27.99,
+		"category": "camisetas y tops",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Blanco", "Beige", "Rosa", "Gris"],
+		"image": "https://images.unsplash.com/photo-1562572159-4efc207f5aff",
+		"description": "Body ajustado de manga corta con cierre inferior a presión. Muy versátil.",
+		"stock": true
+	},
+
+	{
+		"id": 29,
+		"slug": "poncho-punto-flecos",
+		"name": "Poncho de Punto con Flecos",
+		"price": 62.99,
+		"category": "punto",
+		"sizes": ["única"],
+		"colors": ["Beige", "Gris", "Camel", "Negro", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+		"description": "Poncho de punto suave con flecos en los bordes. Cómodo y estiloso.",
+		"stock": true
+	},
+
+	{
+		"id": 30,
+		"slug": "pantalon-cargo-bolsillos",
+		"name": "Pantalón Cargo con Bolsillos",
+		"price": 48.99,
+		"category": "pantalones",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Verde", "Negro", "Beige", "Gris", "Camel"],
+		"image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf",
+		"description": "Pantalón estilo cargo con múltiples bolsillos. Comodidad urbana.",
+		"stock": true
+	},
+
+	{
+		"id": 31,
+		"slug": "falda-asimetrica-drapeada",
+		"name": "Falda Asimétrica Drapeada",
+		"price": 46.99,
+		"category": "faldas y shorts",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Gris", "Verde", "Azul", "Burdeos"],
+		"image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa",
+		"description": "Falda midi con drapeado lateral y corte asimétrico. Diseño vanguardista.",
+		"stock": false
+	},
+
+	{
+		"id": 32,
+		"slug": "botas-caña-alta",
+		"name": "Botas de Caña Alta",
+		"price": 89.99,
+		"category": "zapatos y accesorios",
+		"sizes": ["36", "37", "38", "39", "40", "41"],
+		"colors": ["Negro", "Marrón", "Camel", "Gris", "Beige"],
+		"image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+		"description": "Botas de caña alta en piel sintética con tacón bajo. Elegancia y comodidad.",
+		"stock": true
+	},
+
+	{
+		"id": 33,
+		"slug": "cazadora-bomber-satinada",
+		"name": "Cazadora Bomber Satinada",
+		"price": 72.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Verde", "Rosa", "Azul", "Rojo"],
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+		"description": "Cazadora bomber con acabado satinado y ribetes en contraste. Tendencia actual.",
+		"stock": true
+	},
+
+	{
+		"id": 34,
+		"slug": "vestido-wrap-punto",
+		"name": "Vestido Wrap de Punto",
+		"price": 57.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Beige", "Gris", "Burdeos", "Verde"],
+		"image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+		"description": "Vestido cruzado en tejido de punto con cinturón. Favorecedor y cómodo.",
+		"stock": true
+	},
+
+	{
+		"id": 35,
+		"slug": "camisa-seda-estampada",
+		"name": "Camisa de Seda Estampada",
+		"price": 65.99,
+		"category": "camisas",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Rosa", "Verde", "Negro", "Beige"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camisa fluida en seda sintética con estampado artístico. Elegancia casual.",
+		"stock": false
+	},
+
+	{
+		"id": 36,
+		"slug": "top-crop-canale",
+		"name": "Top Crop Canalé",
+		"price": 23.99,
+		"category": "camisetas y tops",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Blanco", "Beige", "Rosa", "Camel"],
+		"image": "https://images.unsplash.com/photo-1562572159-4efc207f5aff",
+		"description": "Top corto en tejido canalé con cuello alto. Tendencia y comodidad.",
+		"stock": true
+	},
+
+	{
+		"id": 37,
+		"slug": "jersey-trenzado-cuello-v",
+		"name": "Jersey Trenzado Cuello V",
+		"price": 55.99,
+		"category": "punto",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Camel", "Beige", "Gris", "Negro", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+		"description": "Jersey con punto trenzado y cuello en V. Elegancia y calidez en un mismo look.",
+		"stock": true
+	},
+
+	{
+		"id": 38,
+		"slug": "pantalon-jogger-algodon",
+		"name": "Pantalón Jogger de Algodón",
+		"price": 37.99,
+		"category": "pantalones",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Gris", "Negro", "Azul", "Verde", "Beige"],
+		"image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf",
+		"description": "Pantalón deportivo con cintura elástica y cordón ajustable. Máximo confort.",
+		"stock": true
+	},
+
+	{
+		"id": 39,
+		"slug": "short-ciclista-negro",
+		"name": "Short Ciclista Negro",
+		"price": 28.99,
+		"category": "faldas y shorts",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Gris", "Azul", "Verde", "Burdeos"],
+		"image": "https://images.unsplash.com/photo-1591195853828-11db59a44f43",
+		"description": "Short ciclista ajustado en tejido técnico. Comodidad y estilo deportivo.",
+		"stock": true
+	},
+
+	{
+		"id": 40,
+		"slug": "pañuelo-seda-estampado",
+		"name": "Pañuelo de Seda Estampado",
+		"price": 19.99,
+		"category": "zapatos y accesorios",
+		"sizes": ["única"],
+		"colors": ["Azul", "Rosa", "Verde", "Rojo", "Beige"],
+		"image": "https://images.unsplash.com/photo-1584036553516-bf83210aa16c",
+		"description": "Pañuelo de seda con estampado artístico. Úsalo en el cuello, cabello o bolso.",
+		"stock": true
+	},
+
+	{
+		"id": 41,
+		"slug": "cazadora-piel-vuelta",
+		"name": "Cazadora de Piel Vuelta",
+		"price": 95.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Camel", "Marrón", "Negro", "Beige", "Gris"],
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+		"description": "Cazadora en piel vuelta con interior de borreguillo. Lujo accesible.",
+		"stock": false
+	},
+
+	{
+		"id": 42,
+		"slug": "vestido-lencero-midi",
+		"name": "Vestido Lencero Midi",
+		"price": 59.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Beige", "Rosa", "Azul", "Burdeos"],
+		"image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+		"description": "Vestido lencero de tejido satinado con tirantes finos. Sensualidad y elegancia.",
+		"stock": true
+	},
+
+	{
+		"id": 43,
+		"slug": "camisa-denim-manga-corta",
+		"name": "Camisa Denim Manga Corta",
+		"price": 39.99,
+		"category": "camisas",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Negro", "Blanco", "Gris", "Beige"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camisa de denim ligero con manga corta. Ideal para los meses de verano.",
+		"stock": true
+	},
+
+	{
+		"id": 44,
+		"slug": "camiseta-grafica-estampada",
+		"name": "Camiseta Gráfica Estampada",
+		"price": 24.99,
+		"category": "camisetas y tops",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Blanco", "Negro", "Gris", "Beige", "Rosa"],
+		"image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+		"description": "Camiseta con estampado gráfico artístico. Expresa tu personalidad.",
+		"stock": true
+	},
+
+	{
+		"id": 45,
+		"slug": "chaleco-punto-largo",
+		"name": "Chaleco de Punto Largo",
+		"price": 44.99,
+		"category": "punto",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Beige", "Gris", "Negro", "Camel", "Blanco"],
+		"image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+		"description": "Chaleco largo de punto con abertura frontal. Versátil y muy favorecedor.",
+		"stock": false
+	},
+
+	{
+		"id": 46,
+		"slug": "pantalon-wide-leg-tiro-alto",
+		"name": "Pantalón Wide Leg Tiro Alto",
+		"price": 62.99,
+		"category": "pantalones",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Beige", "Azul", "Gris", "Camel"],
+		"image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf",
+		"description": "Pantalón de pierna ancha y tiro alto. La tendencia más elegante de la temporada.",
+		"stock": true
+	},
+
+	{
+		"id": 47,
+		"slug": "falda-tubo-cuero",
+		"name": "Falda Tubo de Cuero",
+		"price": 52.99,
+		"category": "faldas y shorts",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Negro", "Marrón", "Beige", "Rojo", "Verde"],
+		"image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa",
+		"description": "Falda ajustada de cuero sintético con abertura trasera. Actitud y estilo.",
+		"stock": true
+	},
+
+	{
+		"id": 48,
+		"slug": "sandalias-planas-tiras",
+		"name": "Sandalias Planas de Tiras",
+		"price": 45.99,
+		"category": "zapatos y accesorios",
+		"sizes": ["36", "37", "38", "39", "40", "41"],
+		"colors": ["Beige", "Negro", "Marrón", "Blanco", "Dorado"],
+		"image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+		"description": "Sandalias planas con múltiples tiras entrelazadas. Comodidad y elegancia veraniega.",
+		"stock": true
+	},
+
+	{
+		"id": 49,
+		"slug": "cazadora-polar-fleece",
+		"name": "Cazadora Polar Fleece",
+		"price": 67.99,
+		"category": "cazadoras",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Gris", "Negro", "Azul", "Verde", "Beige"],
+		"image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+		"description": "Cazadora de polar suave con cremallera frontal. Calidez sin renunciar al estilo.",
+		"stock": true
+	},
+
+	{
+		"id": 50,
+		"slug": "vestido-bohemio-largo",
+		"name": "Vestido Bohemio Largo",
+		"price": 64.99,
+		"category": "vestidos",
+		"sizes": ["XS", "S", "M", "L", "XL"],
+		"colors": ["Azul", "Verde", "Rosa", "Beige", "Rojo"],
+		"image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+		"description": "Vestido largo con estampado étnico y mangas largas. Estilo boho chic.",
+		"stock": false
+	}
+]
