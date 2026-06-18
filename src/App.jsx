@@ -8,19 +8,19 @@ import { NotFound } from './pages/NotFound.jsx';
 import { Header } from './components/Header.jsx';
 
 function App() {
-	return (
-		<BrowserRouter>
-			<Header />
-			<Routes>
-				<Route path='/' element={<Home />} />
-				<Route path='/catalog' element={<Catalog />} />
-				<Route path='/product/:slug' element={<ProductDetail />} />
-				<Route path='/cart' element={<Cart />} />
-				<Route path='/login' element={<Login />} />
-				<Route path='*' element={<NotFound />} />
-			</Routes>
-		</BrowserRouter>
-	);
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/product/:slug" element={<ProductDetail />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
