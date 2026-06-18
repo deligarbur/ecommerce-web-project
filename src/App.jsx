@@ -5,10 +5,12 @@ import { ProductDetail } from './pages/ProductDetail.jsx';
 import { Cart } from './pages/Cart.jsx';
 import { Login } from './pages/Login.jsx';
 import { NotFound } from './pages/NotFound.jsx';
+import { Header } from './components/Header.jsx';
 
 function App() {
 	return (
 		<BrowserRouter>
+			<Header />
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/catalog' element={<Catalog />} />
