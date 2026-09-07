@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Menu, X, Search, UserRound, ShoppingBag } from 'lucide-react';
+import './Header.css';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,10 +11,17 @@ export function Header() {
   };
 
   return (
-    <header>
+    <header className="header">
       {/* Botón hamburguesa */}
-      <button type="button" className="header__menu-btn" onClick={handleMenuToggle}>
-        {isMenuOpen ? 'x' : '☰'}
+      <button
+        type="button"
+        className="header__menu-btn"
+        onClick={handleMenuToggle}
+        aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
+        aria-expanded={isMenuOpen}
+        aria-controls="header-menu"
+      >
+        {isMenuOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
       </button>
 
       {/* Logo */}
@@ -21,26 +30,30 @@ export function Header() {
       </Link>
 
       {/* Iconos derecha */}
-      <nav>
-        <button type="button" className="header__icon-btn">
-          🔍
+      <nav id="header-menu" className="header__actions">
+        <button type="button" className="header__icon-btn" aria-label="Buscar">
+          <Search aria-hidden="true" />
         </button>
-        <button type="button" className="header__icon-btn">
-          👤
+
+        <button type="button" className="header__icon-btn" aria-label="Mi cuenta">
+          <UserRound aria-hidden="true" />
         </button>
-        <Link to="/cart">🛒</Link>
+
+        <Link to="/cart" className="header__cart" aria-label="Ver carrito">
+          <ShoppingBag aria-hidden="true" />
+        </Link>
       </nav>
 
       {/* Menú desplegable */}
       {isMenuOpen && (
         <nav className="header__menu">
           {/* Novedades */}
-          <Link to="/catalog" className="header__menu-section">
+          <Link to="/catalog" className="header__menu-section" onClick={handleMenuToggle}>
             NOVEDADES
           </Link>
           {/* Colección */}
           <section className="header__menu-section">
-            <p className="header__menu-title">COLECCCIÓN</p>
+            <p className="header__menu-title">COLECCIÓN</p>
             <ul className="header__menu-list">
               <li>
                 <Link to="/catalog?category=cazadoras" onClick={handleMenuToggle}>
