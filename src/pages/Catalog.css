@@ -1,0 +1,42 @@
+.catalog-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 5rem;
+}
+
+.catalog-page__header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.catalog-page__eyebrow {
+  margin: 0 0 0.75rem;
+  color: #666;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.catalog-page__title {
+  margin: 0;
+  color: #111;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.catalog-page__description {
+  max-width: 32rem;
+  margin: 1rem auto 0;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .catalog-page {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .catalog-page__header {
+    margin-bottom: 2rem;
+  }
+}
