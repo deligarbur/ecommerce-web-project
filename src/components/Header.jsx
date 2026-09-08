@@ -30,7 +30,7 @@ export function Header() {
       </Link>
 
       {/* Iconos derecha */}
-      <nav id="header-menu" className="header__actions">
+      <nav className="header__actions">
         <button type="button" className="header__icon-btn" aria-label="Buscar">
           <Search aria-hidden="true" />
         </button>
@@ -46,7 +46,7 @@ export function Header() {
 
       {/* Menú desplegable */}
       {isMenuOpen && (
-        <nav className="header__menu">
+        <nav id="header-menu" className="header__menu">
           {/* Novedades */}
           <Link to="/catalog" className="header__menu-section" onClick={handleMenuToggle}>
             NOVEDADES
