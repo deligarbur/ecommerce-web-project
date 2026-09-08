@@ -73,44 +73,50 @@ Revisa posibles errores y problemas de calidad en el código 🫶🏻
 
 ## Rutas principales
 
+```bash
 / Página principal
 /catalog Catálogo de productos
 /product/:slug Detalle de producto
 /cart Carrito
 /login Login
+```
+
 
 ## Estructura del proyecto
 
+```bash
 src/
 ├── assets/
 ├── components/
-│ ├── CategorySection.jsx
-│ ├── CategorySection.css
-│ ├── Footer.jsx
-│ ├── Footer.css
-│ ├── Header.jsx
-│ ├── Header.css
-│ ├── Hero.jsx
-│ ├── Hero.css
-│ ├── ProductCard.jsx
-│ ├── ProductCard.css
-│ ├── ProductGrid.jsx
-│ └── ProductGrid.css
+│   ├── CategorySection.jsx
+│   ├── CategorySection.css
+│   ├── Footer.jsx
+│   ├── Footer.css
+│   ├── Header.jsx
+│   ├── Header.css
+│   ├── Hero.jsx
+│   ├── Hero.css
+│   ├── ProductCard.jsx
+│   ├── ProductCard.css
+│   ├── ProductGrid.jsx
+│   └── ProductGrid.css
 ├── data/
-│ └── products.json
+│   └── products.json
 ├── pages/
-│ ├── Cart.jsx
-│ ├── Catalog.jsx
-│ ├── Catalog.css
-│ ├── Home.jsx
-│ ├── Login.jsx
-│ ├── NotFound.jsx
-│ ├── ProductDetail.jsx
-│ └── ProductDetail.css
+│   ├── Cart.jsx
+│   ├── Catalog.jsx
+│   ├── Catalog.css
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── NotFound.jsx
+│   ├── ProductDetail.jsx
+│   └── ProductDetail.css
 ├── styles/
-│ └── main.css
+│   └── main.css
 ├── App.jsx
 └── main.jsx
+```
+
 
 ## Próximos pasos
 
