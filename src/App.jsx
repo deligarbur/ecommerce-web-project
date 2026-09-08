@@ -6,6 +6,7 @@ import { Cart } from './pages/Cart.jsx';
 import { Login } from './pages/Login.jsx';
 import { NotFound } from './pages/NotFound.jsx';
 import { Header } from './components/Header.jsx';
+import { Footer } from './components/Footer.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
