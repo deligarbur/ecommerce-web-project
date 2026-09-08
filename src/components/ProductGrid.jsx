@@ -1,9 +1,9 @@
 import { ProductCard } from './ProductCard';
-import './ProductCard.css';
+import './ProductGrid.css';
 
 export function ProductGrid({ products }) {
   return (
-    <div>
+    <div className="product-grid">
       {products.map(product => (
         <ProductCard key={product.id} product={product} />
       ))}
