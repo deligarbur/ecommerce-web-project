@@ -20,7 +20,8 @@
 .catalog-page__title {
   margin: 0;
   color: #111;
-  font-size: 0.75rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -39,4 +40,10 @@
   .catalog-page__header {
     margin-bottom: 2rem;
   }
+}
+
+.catalog-page__empty {
+  padding: 4rem 0;
+  color: #666;
+  text-align: center;
 }
